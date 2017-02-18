@@ -1,5 +1,5 @@
 <?php
-  $link = mysql_connect('192.168.70.51','mysql','');
+  $link = mysql_connect('127.0.0.1','root','');
   if ($link)
     echo "Success...";
   else
